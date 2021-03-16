@@ -17,10 +17,10 @@ public class AppRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         logger.info("...fetching books");
-        logger.info("isbn-1111 : " + bookCacheRepository.getByIsbn("isbn-1111") );
-        logger.info("isbn-2222 : " + bookCacheRepository.getByIsbn("isbn-2222") );
-        logger.info("isbn-1111 : " + bookCacheRepository.getByIsbn("isbn-1111") );
-        logger.info("isbn-2222 : " + bookCacheRepository.getByIsbn("isbn-2222") );
-        logger.info("isbn-1111 : " + bookCacheRepository.getByIsbn("isbn-1111") );
+        logger.info("isbn-1111 : " + bookCacheRepository.getByIsbn("isbn-1111"));
+        logger.info("isbn-2222 : " + bookCacheRepository.getByIsbn("isbn-2222"));
+        logger.info("isbn-1111 : " + bookCacheRepository.getByIsbn("isbn-1111"));
+        logger.info("isbn-2222 : " + bookCacheRepository.getByIsbn("isbn-2222"));
+        logger.info("isbn-1111 : " + bookCacheRepository.getByIsbn("isbn-1111"));
     }
 }
